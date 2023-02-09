@@ -9,3 +9,14 @@ import Foundation
 
 print("Hello, World!")
 
+var againstPerson = AgainstHuman(firstRang: ["", "", ""], secondRang: ["", "", ""], thirdRang: ["", "", ""], TicTacToe: [])
+againstPerson.startGame()
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE70FD6F2993D829007185F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70FD6E2993D829007185F3 /* main.swift */; };
+		CE70FD762993D8DB007185F3 /* Game .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70FD752993D8DB007185F3 /* Game .swift */; };
+		CE70FD8D2994FFE5007185F3 /* Protocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70FD8C2994FFE5007185F3 /* Protocol .swift */; };
+		CE70FD912995057E007185F3 /* AgainstHuman .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70FD902995057E007185F3 /* AgainstHuman .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CE70FD6B2993D829007185F3 /* TicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE70FD6E2993D829007185F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE70FD752993D8DB007185F3 /* Game .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game .swift"; sourceTree = "<group>"; };
+		CE70FD8C2994FFE5007185F3 /* Protocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol .swift"; sourceTree = "<group>"; };
+		CE70FD902995057E007185F3 /* AgainstHuman .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AgainstHuman .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CE70FD6E2993D829007185F3 /* main.swift */,
+				CE70FD752993D8DB007185F3 /* Game .swift */,
+				CE70FD8C2994FFE5007185F3 /* Protocol .swift */,
+				CE70FD902995057E007185F3 /* AgainstHuman .swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE70FD8D2994FFE5007185F3 /* Protocol .swift in Sources */,
+				CE70FD762993D8DB007185F3 /* Game .swift in Sources */,
+				CE70FD912995057E007185F3 /* AgainstHuman .swift in Sources */,
 				CE70FD6F2993D829007185F3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
