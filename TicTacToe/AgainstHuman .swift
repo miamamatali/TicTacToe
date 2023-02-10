@@ -40,7 +40,6 @@ class AgainstHuman: Game {
             }
             print(showInfo())
             
-            
             let line2 = readLine()!
             let column2 = readLine()!
             
